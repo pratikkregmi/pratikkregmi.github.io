@@ -1,0 +1,115 @@
+body{
+    margin: 96px;
+    padding: 0;
+    background-color: white;
+}
+
+header{
+    display: flex;
+}
+
+section{
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.name{
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.pintro{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ppt{
+    font-size: 30px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.title{
+    font-weight: bold;
+    font-size:20px;
+}
+.tt{
+    width: fit-content;
+}
+hr{
+    margin: 1px 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+.bold3ota{
+     font-weight: bold;
+     padding-left: 32px;
+ }
+
+ .scol{
+     text-align: start;
+ }
+
+ .t{
+     justify-content: start;
+ }
+
+ .t th{
+     text-align: start;
+ }
+
+th{
+     font-weight: normal;
+ }
+
+ td {
+     padding-left: 32px;
+     text-align: left;
+ }
+
+ .lang{
+     font-weight: bold;
+ }
+
+.fa {
+  font-size: 100px;
+  width: 64px;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 8px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+    
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #171515;
+    color: white;
+  }
+
+  .jp{
+      padding: 16px;
+      padding-left: 0;
+  }
+
+  .td_r{
+      text-align: right;
+  }
+  .td_l{
+    text-align: left;
+}
